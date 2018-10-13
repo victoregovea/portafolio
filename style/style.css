@@ -1,0 +1,47 @@
+
+     li {
+      float: none;
+      display: inline-block;
+      text-align: center
+    }
+  
+
+    .rainbowText {
+      font-size: 10vw;
+      font-weight: 400;
+      color: #f35626;
+      background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: hue 5s infinite linear;
+  }
+  
+  @-webkit-keyframes hue {
+      from {
+        -webkit-filter: hue-rotate(0deg);
+      }
+      
+      to {
+        -webkit-filter: hue-rotate(360deg);
+      }
+  }
+
+  .iknow{
+    font-size: 7vw;
+  }
+
+  h3{
+    font-size:4vw;
+  }
+
+  p{
+    font-size:2vw;
+  }
+
+  
+
+
+  /* .section1{
+    min-height:  500px !important;
+    height: 30vw;
+  } */
