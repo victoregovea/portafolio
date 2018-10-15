@@ -49,24 +49,4 @@
     font-size:calc(5px + 1vw);
   }
 
-  
-
-
-  /* .section1{
-    min-height:  500px !important;
-    height: 30vw;
-  } */
-
-  .carousel-caption {
-    position: relative;
-    left: auto;
-    right: auto;
-    color:black;
-}
-
-
-.carousel >img{
-  max-width: 30vw;
-
-}
 
