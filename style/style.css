@@ -4,23 +4,19 @@
     }
 
     body{
-      background-color:whitesmoke;
+      background-color:#FFFFFF;
     }
     nav{
-      background:lightgray;
-      position:absolute;
+      background:rgba(255, 229, 213, 0.555);
     }
     li, .navbar-brand {
       float: none;
-      display: inline-block;
       text-align: center;
-      font-size:calc(12px + 2vw);
+      font-size:calc(12px + 1vw);
     }
 
     #home{
-   
-      
-      background-image: url("../images/mountainssvg.svg");
+      background-image: url("../images/mountains.png");
       min-height:100%;
       background-attachment: fixed;
       background-position: center;
@@ -39,12 +35,14 @@
       background-color:lightgray;
     } */
 
-    #aboutme > p {
+    #aboutme{
+      background-color: rgba(255, 229, 213, 0.555);
 
     }
 
     .photo{
       max-width: 200px;
+      border: white solid 3px;
     }
   
 
@@ -103,5 +101,14 @@
 .portafolio img{
   border: white solid 4px;
 }
+}
+
+.portafolio{
+  background-color: #2A2A3F;
+  color: white;
+}
+
+.portafolio h4{
+  margin-top: 2rem;
 }
 
