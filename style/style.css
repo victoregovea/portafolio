@@ -1,21 +1,39 @@
 
     *{
-      font-family: 'Amatic SC', cursive;
+      font-family: 'Lato', sans-serif;
     }
-    
-    li {
+
+    body{
+      background-color:whitesmoke;
+    }
+    nav{
+      background:lightgray;
+      position:absolute;
+    }
+    li, .navbar-brand {
       float: none;
       display: inline-block;
-      text-align: center
+      text-align: center;
+      font-size:calc(12px + 2vw);
     }
 
     #home{
-      background: #16222A;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+      
+      background-image: url("../images/mountainssvg.svg");
+      min-height:100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-y: top;
+}
+      /* background: #16222A;  /* fallback for old browsers 
+      /* background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 
+      /* background: linear-gradient(to left, #3A6073, #16222A); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
       
 
-    }
+    
 
     /* .portafolio{
       background-color:lightgray;
@@ -31,10 +49,11 @@
   
 
     .rainbowText {
-      font-size: 10vw;
-      font-family: 'Amatic SC', cursive;
+      font-size: calc(20px + 10vw);
+      font-weight: 400px;
+      
       color: #f35626;
-      background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+      background-image: -webkit-linear-gradient(160deg,#f35626,#feab3a);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-animation: hue 5s infinite linear;
@@ -51,38 +70,38 @@
   }
 
   .iknow{
-    font-size: calc(12px + 2vw);
-    color: white;
+    font-size: calc(16px + 5vw);
+    font-weight:600px;
+    color: rgb(197, 28, 70);
+    
   }
 
   h3{
-    font-size:calc(11px + 2vw);
+    font-size:calc(16px + 3vw);
   }
   h4{
-    font-size:calc(8px + 1vw);
+    font-size:calc(12px + 3vw);
   }
 
 
 
   p{
-    font-size:calc(5px + 1vw);
+    font-size:calc(12px + 1.5vw);
   }
 
-@media (min-width:500px){
+@media screen and (min-width:1000px){
 .studypals{
   -ms-transform: skewY(-5deg); /* IE 9 */
     -webkit-transform: skewY(-5deg); /* Safari */
     transform: skewY(-5deg); /* Standard syntax */
 }
-
 .hungryants{
   -ms-transform: skewY(5deg); /* IE 9 */
     -webkit-transform: skewY(5deg); /* Safari */
     transform: skewY(5deg); /* Standard syntax */
 }
-
 .portafolio img{
-  border: black solid 1px;
+  border: white solid 4px;
 }
 }
 
