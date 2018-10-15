@@ -1,6 +1,6 @@
 
     *{
-      font-family: 'Roboto Mono', monospace;
+      font-family: 'Amatic SC', cursive;
     }
     
     li {
@@ -10,13 +10,29 @@
     }
 
     #home{
-      background-color:light-grey;
+      background: #16222A;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+
+    }
+
+    /* .portafolio{
+      background-color:lightgray;
+    } */
+
+    #aboutme > p {
+
+    }
+
+    .photo{
+      max-width: 200px;
     }
   
 
     .rainbowText {
-      font-size: 9vw;
-      font-weight: 400;
+      font-size: 10vw;
+      font-family: 'Amatic SC', cursive;
       color: #f35626;
       background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
       -webkit-background-clip: text;
@@ -36,6 +52,7 @@
 
   .iknow{
     font-size: calc(12px + 2vw);
+    color: white;
   }
 
   h3{
@@ -45,8 +62,27 @@
     font-size:calc(8px + 1vw);
   }
 
+
+
   p{
     font-size:calc(5px + 1vw);
   }
 
+@media (min-width:500px){
+.studypals{
+  -ms-transform: skewY(-5deg); /* IE 9 */
+    -webkit-transform: skewY(-5deg); /* Safari */
+    transform: skewY(-5deg); /* Standard syntax */
+}
+
+.hungryants{
+  -ms-transform: skewY(5deg); /* IE 9 */
+    -webkit-transform: skewY(5deg); /* Safari */
+    transform: skewY(5deg); /* Standard syntax */
+}
+
+.portafolio img{
+  border: black solid 1px;
+}
+}
 
