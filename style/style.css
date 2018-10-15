@@ -1,13 +1,21 @@
 
-     li {
+    *{
+      font-family: 'Roboto Mono', monospace;
+    }
+    
+    li {
       float: none;
       display: inline-block;
       text-align: center
     }
+
+    #home{
+      background-color:light-grey;
+    }
   
 
     .rainbowText {
-      font-size: 10vw;
+      font-size: 9vw;
       font-weight: 400;
       color: #f35626;
       background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
@@ -27,15 +35,18 @@
   }
 
   .iknow{
-    font-size: 7vw;
+    font-size: calc(12px + 2vw);
   }
 
   h3{
-    font-size:4vw;
+    font-size:calc(11px + 2vw);
+  }
+  h4{
+    font-size:calc(8px + 1vw);
   }
 
   p{
-    font-size:2vw;
+    font-size:calc(5px + 1vw);
   }
 
   
@@ -45,3 +56,17 @@
     min-height:  500px !important;
     height: 30vw;
   } */
+
+  .carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    color:black;
+}
+
+
+.carousel >img{
+  max-width: 30vw;
+
+}
+

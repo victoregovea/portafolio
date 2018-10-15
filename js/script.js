@@ -1,6 +1,6 @@
 var options = {
     strings: ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap", "Angular", "React", "WordPress", "SEO"],
-    typeSpeed: 200,
+    typeSpeed: 100,
     loop: true,
     backSpeed: 100,
     backDelay: 1000,
