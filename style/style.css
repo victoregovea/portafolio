@@ -22,7 +22,6 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-position-y: top;
 }
       /* background: #16222A;  /* fallback for old browsers 
       /* background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 
@@ -110,5 +109,10 @@
 
 .portafolio h4{
   margin-top: 2rem;
+}
+
+.contact{
+  color:white;
+  background-color: black;
 }
 
