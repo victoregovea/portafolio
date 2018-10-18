@@ -18,25 +18,20 @@
     #home{
       background-image: url("../images/mountains.png");
       min-height:100%;
-      background-attachment: fixed;
+      /* background-attachment: fixed; */
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
 }
-      /* background: #16222A;  /* fallback for old browsers 
-      /* background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 
-      /* background: linear-gradient(to left, #3A6073, #16222A); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
-      
-
-    
-
-    /* .portafolio{
-      background-color:lightgray;
-    } */
+   .frontend{
+    font-size: calc(20px + 10vw);
+    font-weight: 400px;
+      color: white;
+      mix-blend-mode: difference;
+    }
 
     #aboutme{
-      background-color: rgba(255, 229, 213, 0.555);
-
+      background-color: rgb(246, 250, 252);
     }
 
     .photo{
@@ -48,7 +43,6 @@
     .rainbowText {
       font-size: calc(20px + 10vw);
       font-weight: 400px;
-      
       color: #f35626;
       background-image: -webkit-linear-gradient(160deg,#f35626,#feab3a);
       -webkit-background-clip: text;
@@ -68,9 +62,12 @@
 
   .iknow{
     font-size: calc(16px + 5vw);
-    font-weight:600px;
-    color: rgb(197, 28, 70);
-    
+    color: white;
+    /* mix-blend-mode: difference; */
+  }
+
+  typed{
+    font-size: calc(16px + 5vw);
   }
 
   h3{
@@ -117,5 +114,5 @@
 }
 
 .contact img{
-  width: 15vw;
+  width: 100px;
 }
