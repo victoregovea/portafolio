@@ -42,14 +42,15 @@ li,
   border: white solid 3px;
 }
 
+  
 
 .rainbowText {
   font-family: 'Indie Flower', cursive;
-  font-size: calc(20px + 13vw);
+  font-size: calc(20px + 15vw);
   color: #f35626;
   background-image: -webkit-linear-gradient(160deg, #f63900, #f18e03);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color:transparent;
   -webkit-animation: hue 5s infinite linear;
 }
 
