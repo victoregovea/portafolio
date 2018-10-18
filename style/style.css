@@ -1,116 +1,129 @@
-
-    *{
-      font-family: 'Lato', sans-serif;
-    }
-
-    body{
-      background-color:#FFFFFF;
-    }
-    nav{
-      background:rgba(255, 229, 213, 0.555);
-    }
-    li, .navbar-brand {
-      float: none;
-      text-align: center;
-      font-size:calc(12px + 1vw);
-    }
-
-    #home{
-      background-image: url("../images/mountains.png");
-      min-height:100%;
-      /* background-attachment: fixed; */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+* {
+  font-family: 'Indie Flower', cursive;
 }
-   .frontend{
-    font-size: calc(20px + 10vw);
-    font-weight: 400px;
-      color: white;
-      mix-blend-mode: difference;
-    }
 
-    #aboutme{
-      background-color: rgb(234, 239, 247);
-    }
+body {
+  background-color: #FFFFFF;
+}
 
-    .photo{
-      max-width: 200px;
-      border: white solid 3px;
-    }
+nav {
+  background: rgba(255, 229, 213, 0.555);
+}
+
+li,
+.navbar-brand {
+  float: none;
+  text-align: center;
+  font-size: calc(12px + 1vw);
+}
+
+#home {
+  background-image: url("../images/mountains.png");
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.frontend {
   
-
-    .rainbowText {
-      font-size: calc(20px + 10vw);
-      font-weight: 400px;
-      color: #f35626;
-      background-image: -webkit-linear-gradient(160deg,#f35626,#feab3a);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -webkit-animation: hue 5s infinite linear;
-  }
-  
-  @-webkit-keyframes hue {
-      from {
-        -webkit-filter: hue-rotate(0deg);
-      }
-      
-      to {
-        -webkit-filter: hue-rotate(360deg);
-      }
-  }
-
-  .iknow{
-    font-size: calc(16px + 5vw);
-    color: white;
-    /* mix-blend-mode: difference; */
-  }
-
-  
-
-  h3{
-    font-size:calc(16px + 3vw);
-  }
-  h4{
-    font-size:calc(12px + 3vw);
-  }
-
-
-
-  p{
-    font-size:calc(12px + 1.5vw);
-  }
-
-@media screen and (min-width:1000px){
-.studypals{
-  -ms-transform: skewY(-5deg); /* IE 9 */
-    -webkit-transform: skewY(-5deg); /* Safari */
-    transform: skewY(-5deg); /* Standard syntax */
-}
-.hungryants{
-  -ms-transform: skewY(5deg); /* IE 9 */
-    -webkit-transform: skewY(5deg); /* Safari */
-    transform: skewY(5deg); /* Standard syntax */
-}
-.portafolio img{
-  border: white solid 4px;
-}
+  font-size: calc(20px + 10vw);
+  font-weight: 400px;
+  color: white;
+  mix-blend-mode: difference;
 }
 
-.portafolio{
+#aboutme {
+  background-color: rgb(234, 239, 247);
+}
+
+.photo {
+  max-width: 200px;
+  border: white solid 3px;
+}
+
+
+.rainbowText {
+  font-family: 'Indie Flower', cursive;
+  font-size: calc(20px + 13vw);
+  color: #f35626;
+  background-image: -webkit-linear-gradient(160deg, #f63900, #f18e03);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 5s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+.iknow {
+  font-family: 'Indie Flower', cursive;
+  font-size: calc(16px + 5vw);
+  color: white;
+  /* mix-blend-mode: difference; */
+}
+
+
+
+h3 {
+  font-size: calc(16px + 3vw);
+}
+
+h4 {
+  font-size: calc(12px + 3vw);
+}
+
+
+
+p {
+  font-size: calc(12px + 1.5vw);
+}
+
+@media screen and (min-width:1000px) {
+  .studypals {
+    -ms-transform: skewY(-5deg);
+    /* IE 9 */
+    -webkit-transform: skewY(-5deg);
+    /* Safari */
+    transform: skewY(-5deg);
+    /* Standard syntax */
+  }
+
+  .hungryants {
+    -ms-transform: skewY(5deg);
+    /* IE 9 */
+    -webkit-transform: skewY(5deg);
+    /* Safari */
+    transform: skewY(5deg);
+    /* Standard syntax */
+  }
+
+  .portafolio img {
+    border: white solid 4px;
+  }
+}
+
+.portafolio {
   background-color: #2A2A3F;
   color: white;
 }
 
-.portafolio h4{
+.portafolio h4 {
   margin-top: 2rem;
 }
 
-.contact{
-  color:white;
+.contact {
+  color: white;
   background-color: black;
 }
 
-.contact img{
+.contact img {
   width: 100px;
 }
