@@ -31,7 +31,7 @@
     }
 
     #aboutme{
-      background-color: rgb(246, 250, 252);
+      background-color: rgb(234, 239, 247);
     }
 
     .photo{
@@ -66,9 +66,7 @@
     /* mix-blend-mode: difference; */
   }
 
-  typed{
-    font-size: calc(16px + 5vw);
-  }
+  
 
   h3{
     font-size:calc(16px + 3vw);
