@@ -127,3 +127,7 @@ p {
 .contact img {
   width: 100px;
 }
+
+.contact img:hover {
+  filter
+}
