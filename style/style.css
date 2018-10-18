@@ -73,11 +73,11 @@ li,
 
 
 h3 {
-  font-size: calc(16px + 3vw);
+  font-size: calc(16px + 3.5vw);
 }
 
 h4 {
-  font-size: calc(12px + 3vw);
+  font-size: calc(12px + 2.5vw);
 }
 
 
@@ -105,17 +105,17 @@ p {
     /* Standard syntax */
   }
 
-  .portafolio img {
+  .projects img {
     border: white solid 4px;
   }
 }
 
-.portafolio {
+.projects {
   background-color: #2A2A3F;
   color: white;
 }
 
-.portafolio h4 {
+.projects h4 {
   margin-top: 2rem;
 }
 
